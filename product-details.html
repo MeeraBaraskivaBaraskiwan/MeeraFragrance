@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MeeraFragrance | Product Details</title>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  crossorigin="anonymous"
+/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">MeeraFragrance</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="product-details">
+      <div class="product-image">
+        <img src="images/placeholder.png" alt="Product Image" id="product-image"/>
+      </div>
+      <div class="product-info">
+        <h2 id="product-name">Product Name</h2>
+        <p id="product-description">Product Description</p>
+        <p id="product-price">$0.00</p>
+        <div class="stars" id="product-rating">★★★★★</div>
+
+        <div class="ml-selection">
+          <label for="ml-size">Choose Size (ML):</label>
+          <select id="ml-size">
+            <option value="50">50ml</option>
+            <option value="100" selected>100ml</option>
+            <option value="150">150ml</option>
+          </select>
+        </div>
+
+        <div class="quantity-section">
+          <label for="quantity-input">Quantity:</label>
+          <input type="number" id="quantity-input" value="1" min="1"/>
+        </div>
+
+        <button class="add-to-cart-btn" id="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="added-to-cart-popup" id="added-to-cart-popup">
+        <p id="cart-popup-text">Item added to cart!</p>
+      </div>
+    </section>
+
+    <section class="product-reviews">
+      <h3>Customer Reviews</h3>
+      <div class="review-card">
+        <p>"Absolutely gorgeous scent! Will buy again."</p>
+        <span>- Clara</span>
+      </div>
+      <div class="review-card">
+        <p>"I'm in love with the packaging and longevity."</p>
+        <span>- Thomas</span>
+      </div>
+      <div class="review-card">
+        <p>"Worth every penny. A must-have in my collection."</p>
+        <span>- Sasha</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2024 MeeraFragrance | Follow us on
+      <a
+        href="https://www.instagram.com/meera_baraskivabaraskiwan/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/meeraparaskiva"
+        target="_blank"
+        style="margin-left:10px;"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <script src="product-details.js"></script>
+</body>
+</html>

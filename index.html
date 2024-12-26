@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MeeraFragrance | Home</title>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  crossorigin="anonymous"
+/>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body  class="home-page">
+
+  
+  <header>
+    <div class="logo">MeeraFragrance</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <div class="marquee-area">
+    <marquee scrollamount="10">
+      🎉 15% Sale on Selected Perfumes! Limited Time Offer! 🎉
+    </marquee>
+  </div>
+
+  <main class="page-content">
+  
+    <section class="hero">
+      <video autoplay muted id="hero-video">
+        <source src="v3.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-content">
+        <h1>MeeraFragrance</h1>
+        <p>Where luxury meets fragrance</p>
+        <button class="shop-now">Shop Now</button>
+       
+        <a
+          href="https://www.instagram.com/meera_baraskivabaraskiwan/"
+          target="_blank"
+          class="instagram-icon"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/meeraparaskiva"
+          target="_blank"
+          class="instagram-icon"
+          style="margin-left: 15px;"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+    </section>
+
+ 
+    <section class="featured-products">
+      <h2>Featured Perfumes</h2>
+      <div class="products-grid">
+        <div class="product">
+          <img src="images/p1.jpg" alt="Perfume 1" />
+          <h3>Velvet Rose</h3>
+          <p>$50</p>
+          <div class="stars">★★★★★</div>
+          <button class="view-more-btn" data-id="1">View More</button>
+        </div>
+        <div class="product">
+          <img src="images/p2.jpg" alt="Perfume 2" />
+          <h3>Royal Orchid</h3>
+          <p>$70</p>
+          <div class="stars">★★★★☆</div>
+          <button class="view-more-btn" data-id="2">View More</button>
+        </div>
+        <div class="product">
+          <img src="images/p3.jpg" alt="Perfume 3" />
+          <h3>Majestic Scent</h3>
+          <p>$90</p>
+          <div class="stars">★★★★★</div>
+          <button class="view-more-btn" data-id="3">View More</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="reviews-section">
+      <h2>What Our Customers Say</h2>
+      <div class="reviews-grid">
+        <div class="review">
+          <p>
+            "Absolutely in love with MeeraFragrance! The scents are exotic and
+            long-lasting. Highly recommend Velvet Rose!"
+          </p>
+          <span>- Sarah W.</span>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+        <div class="review">
+          <p>
+            "Fast shipping and stunning packaging. Royal Orchid is my new
+            favorite everyday perfume."
+          </p>
+          <span>- James K.</span>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+        <div class="review">
+          <p>
+            "Majestic Scent is perfect for special occasions. Excellent customer
+            service too!"
+          </p>
+          <span>- Emily R.</span>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>
+      &copy; 2024 MeeraFragrance | Follow us on
+      <a
+        href="https://www.instagram.com/meera_baraskivabaraskiwan/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/meeraparaskiva"
+        target="_blank"
+        style="margin-left:10px;"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+  </footer>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

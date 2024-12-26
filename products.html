@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MeeraFragrance | Products</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">MeeraFragrance</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="products-page">
+      <h2 style="text-align: center; padding-top: 25px; padding-bottom: 25px;">Our Perfume Collection</h2>
+      <div class="filter-section">
+        <input type="text" id="search-bar" placeholder="Search by name..."/>
+        <select id="price-filter">
+          <option value="">Filter by Price</option>
+          <option value="50">Below $50</option>
+          <option value="100">$50 - $100</option>
+          <option value="101">Above $100</option>
+        </select>
+      </div>
+      <div class="products-grid" id="products-grid">
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2024 MeeraFragrance | Follow us on
+      <a
+        href="https://www.instagram.com/meera_baraskivabaraskiwan/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/meeraparaskiva"
+        target="_blank"
+        style="margin-left:10px;"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <script src="products.js"></script>
+</body>
+</html>
